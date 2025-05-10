@@ -5,6 +5,7 @@ import MyCart from "./pages/MyCart";
 import MenWatches from "./pages/MenWatches";
 import WoMenWatches from "./pages/WoMenWatches";
 import KidsWatches from "./pages/KidsWatches";
+import Search from "./pages/Search";
 const App=()=>{
   return(
     <>
@@ -17,6 +18,7 @@ const App=()=>{
            <Route path="menwatches" element={<MenWatches/>}/>
            <Route path="womenwatches" element={<WoMenWatches/>}/>
            <Route path="kidswatches" element={<KidsWatches/>}/>
+           <Route path="search" element={<Search/>}/>
           </Route> 
         </Routes>
        </BrowserRouter>
